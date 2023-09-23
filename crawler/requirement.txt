@@ -1,0 +1,10 @@
+numpy
+google-api-python-client
+pandas
+tqdm
+baker
+skorch
+resampy
+torch
+soundfile
+pytorch-ignite
