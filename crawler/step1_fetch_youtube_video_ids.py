@@ -28,7 +28,7 @@ SCOPES = [
 'https://www.googleapis.com/auth/drive',
 'https://www.googleapis.com/auth/youtube'
 ]
-SERVICE_ACCOUNT_FILE = './mapfeed-c2a24-33c6b2de0b75.json'
+SERVICE_ACCOUNT_FILE = './cred/mapfeed-c2a24-33c6b2de0b75.json'
 
 credentials = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
 

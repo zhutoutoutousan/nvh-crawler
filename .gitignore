@@ -1,2 +1,5 @@
 .env
-**/mapfeed*.json
+mapfeed-*.json
+**/data/sound/noise/*
+**/data/sound/healthy/*
+*.wav

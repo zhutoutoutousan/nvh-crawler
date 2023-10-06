@@ -1,0 +1,11 @@
+channels:
+- defaults
+
+show_channel_urls: True
+allow_other_channels: True
+
+proxy_servers:
+    http: 127.0.0.1:10809
+    https: 127.0.0.1:10809
+
+ssl_verify: False
