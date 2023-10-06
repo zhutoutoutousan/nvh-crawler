@@ -8,6 +8,7 @@ import glob
 import torch
 import random
 
+# ------------------------ Util
 ALL_LETTERS = string.ascii_letters + ".,;"
 N_LETTERS = len(ALL_LETTERS)
 
@@ -21,7 +22,7 @@ def unicode_to_ascii(s):
 def load_data():
     category_lines = {}
     all_categories = []
-    for filename in glob.glob('data/names/*.txt'):
+    for filename in glob.glob('data/rnn/names/*.txt'):
         category = os.path.splitext(os.path.basename(filename))[0]
         all_categories.append(category)
         lines = io.open(filename, encoding='utf-8').read().strip().split('\n')

@@ -11,4 +11,5 @@ torch
 soundfile
 pytorch-ignite
 librosa
-matplotlib
+matplotlib==3.7
+sklearn

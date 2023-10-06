@@ -46,7 +46,6 @@ function fetch_clip {
     #gzip "$dir/$outname.wav"
   } else {
     # Give the user a chance to Ctrl+C.
-    echo "ERROR fetch_clip() | Failed to download video."
     sleep 1
   }
 }
